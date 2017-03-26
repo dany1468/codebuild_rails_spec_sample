@@ -33,4 +33,4 @@ phases:
   build:
     commands:
       - echo "Starting build"
-      - bin/rails ./spec
+      - bin/rspec ./spec
